@@ -26,7 +26,7 @@
                    <strong>Learn More ></strong> 
                 </p>
                 <p class="maps">
-                    <strong><i class="far fa-map"></i>  Event Location ></strong> 
+                    <strong><i class="far fa-map"></i>Event Location ></strong> 
                 </p>
             </div>
         </div>

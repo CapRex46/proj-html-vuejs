@@ -34,7 +34,6 @@
 .box3 img{
     width: 450px;
     height: 250px;
-    
     border-radius: 5px 5px 0px 0px;
 }
 
@@ -42,4 +41,8 @@
 .edubox{
     display: flex;
     justify-content: space-between;
+}
+
+li:hover{
+    border-bottom: 2px black solid;
 }
