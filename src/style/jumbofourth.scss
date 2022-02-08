@@ -1,0 +1,45 @@
+.fourthcontainer{
+    width: 100%;
+}
+
+.fourthjr{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 80px;
+    font-size: 20px;
+}
+
+.fourthjr p{
+    padding-top: 20px;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.edubox{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+
+.box3{
+    width: 450px;
+    height: 550px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    text-align: center;
+}
+
+.box3 img{
+    width: 450px;
+    height: 250px;
+    
+    border-radius: 5px 5px 0px 0px;
+}
+
+
+.edubox{
+    display: flex;
+    justify-content: space-between;
+}

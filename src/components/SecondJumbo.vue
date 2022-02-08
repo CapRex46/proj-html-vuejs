@@ -50,6 +50,52 @@
                     Happy Clients
                 </h3>
             </div>
+        </div>
+        <div class="plimages">
+            <h1>
+            Recent courses
+            </h1>
+            <p>
+                Wheter you're considering a foundation cpourse or an undegraduate degree master's or a PhD, academics is a place where students thrive.
+            </p>
+        </div>
+        <div class="plans">
+            <div class="box bximg">
+                <img src="@/img/course-1-1.jpg" alt="">
+                <h3>
+                    Free
+                </h3>
+                <h1>
+                    UI Animation using Sketch 3, Principle App, and Flinto
+                </h1>
+                <p>
+                    This online photography course will teach you how to take amazing images and even sell...
+                </p>
+            </div>
+            <div class="box bximg">
+                <img src="@/img/course-1-2.jpg" alt="">
+                <h3>
+                    Free
+                </h3>
+                <h1>
+                    The Ultimate Deawing Course - Beginner to Advanced
+                </h1>
+                <p>
+                    This online photography course will teach you how to take amazing images and even sell...
+                </p>
+            </div>
+            <div class="box bximg">
+                <img src="@/img/course-1-3.jpg" alt="">
+                <h3>
+                    Free
+                </h3>
+                <h1>
+                    Your Complete Guide to Photography
+                </h1>
+                <p>
+                    This online photography course will teach you how to take amazing images and even sell...
+                </p>
+            </div>
         </div> 
     </div>
 </template>
