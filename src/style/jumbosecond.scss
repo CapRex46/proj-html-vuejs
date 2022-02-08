@@ -1,0 +1,83 @@
+.jumbosecond {
+    width: 100%;
+    height: 800px;
+    background-color: #FFFFFF;
+}
+
+.offers{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 80px;
+}
+
+.plans{
+    display: flex;
+    width: 1400px;
+    margin: 0 auto;
+    justify-content: space-between,
+}
+
+.box {
+    width: 450px;
+    height: 450px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    text-align: center;
+}
+
+.box img{
+    width: 100px;
+    margin: 50px;
+}
+
+.box h3 {
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.box p {
+    width: 300px;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0 auto;
+}
+
+.hours{
+    margin-top: 40px;
+}
+
+.infoplans {
+    width: 450px;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.firsth1{
+    background: url('../img/counter-shape-1-1-1.png');
+    background-size: cover;
+    color: orange;
+}
+
+
+.secondh1{
+    background: url('../img/counter-shape-2-1-1.png');
+    background-size: cover;
+    color: #e94247;
+}
+
+.thirdh1{
+    background: url('../img/counter-shape-3-1-1.png');
+    background-size: cover;
+    color: #39E17B;
+}
+
+h1 {
+    padding: 30px
+}

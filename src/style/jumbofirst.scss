@@ -1,0 +1,35 @@
+.jumbofirst{
+    width: 100%;
+    background: url('../img/jumbotron1.jpg');
+    height: 1106px;
+    
+}
+
+.jumbocontent{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 300px;
+    font-size: 35px;
+}
+
+.btn{
+    padding: 30px;
+}
+
+.button1 {
+    cursor: pointer;
+    margin-top: 20px;
+    transition-duration: 0.4s;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    margin: 0 auto;
+    font-size: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  
+.button1:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    font-size: 25px;
+  }
