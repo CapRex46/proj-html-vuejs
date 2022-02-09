@@ -43,6 +43,19 @@
             </div> -->
 
         </div>
+        <div class="copyrightfoot">
+            <div class="privacy">
+                <p>
+                    © Copyright 2020 All rights riservated
+                </p>
+                <ul>
+                    <li>Privacy</li>
+                    <li>Terms</li>
+                    <li>Cookie Policy</li>
+                    <li>Sitemap</li>
+                </ul>
+            </div>
+        </div>
     </div>
 </template>
 
