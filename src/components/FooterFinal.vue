@@ -15,33 +15,6 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class="contacts" :v-for="(footlink, index) in footinfo">
-                <div class="footbox">
-                    <h2>{{footinfo.title}}</h2>
-                    <ul>
-                        <li>{{footinfo.messages}}</li>
-                    </ul>
-                </div>
-                <div class="footbox">
-                    <h2>{{footinfo.title}}</h2>
-                    <ul>
-                        <li>{{footinfo.messages}}</li>
-                    </ul>
-                </div>
-                <div class="footbox">
-                    <h2>{{footinfo.title}}</h2>
-                    <ul>
-                        <li>{{footinfo.messages}}</li>
-                    </ul>
-                </div>
-                <div class="footbox">
-                    <h2>{{footinfo.title}}</h2>
-                    <ul>
-                        <li>{{footinfo.messages}}</li>
-                    </ul>
-                </div>
-            </div> -->
-
         </div>
         <div class="copyrightfoot">
             <div class="privacy">
@@ -56,15 +29,14 @@
                 </ul>
             </div>
         </div>
+
     </div>
 </template>
 
 
 <script>
 export default {
-    props : {
-        footlink: Array,
-    }
+
 }
 </script>
 

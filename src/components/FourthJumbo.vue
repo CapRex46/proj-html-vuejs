@@ -12,8 +12,8 @@
             <div class="box3">
                 <img src="@/img/news-3-2.jpg" alt="">
                 <p>
-                    <i class="fa-solid fa-user"></i> Admin
-                    <i class="fa-solid fa-folder"></i> University
+                    <i class="fa fa-user"></i> Admin
+                    <i class="fa fa-folder"></i> University
                 </p>
                 <h2>Peer pressure changes how teens tackle inequality</h2>
                 <p>
@@ -23,8 +23,8 @@
             <div class="box3">
                 <img src="@/img/course-1-1.jpg" alt="">
                 <p>
-                    <i class="fa-solid fa-user"></i> Admin
-                    <i class="fa-solid fa-folder"></i> University
+                    <i class="fa fa-user"></i> Admin
+                    <i class="fa fa-folder"></i> University
                 </p>
                 <h2>Lewisham Live Mixtape celebrates borough's</h2>
                 <p>
@@ -34,8 +34,8 @@
             <div class="box3">
                 <img src="@/img/course-1-2.jpg" alt="">
                 <p>
-                    <i class="fa-solid fa-user"></i> Admin
-                    <i class="fa-solid fa-folder"></i> University
+                    <i class="fa fa-user"></i> Admin
+                    <i class="fa fa-folder"></i> University
                 </p>
                 <h2>Turner Prize winner's work to open Gold on Film festival</h2>
                 <p>

@@ -4,10 +4,10 @@
             <div class="logo">
                 <img src="@/img/Logo.jpg" alt="">
             </div>
-            <div class="navbox" :navList="navList">
+            <div class="navbox" v-for="(link,index) in navList"  v-bind:key="`link-${index}`" >
                 <ul>
                     <li>
-                        {{navList}}
+                        {{link.navtxt}}
                     </li>
                 </ul>
             </div>

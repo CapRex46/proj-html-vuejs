@@ -1,12 +1,13 @@
 <template>
   <div id="app">
-    <header-box :navList="this.navbarList"/>
+    <header-box :navList="navbarList" />
     <first-jumbo/>
     <second-jumbo/>
     <third-jumbo/>
     <fourth-jumbo/>
     <footer-box/>
     <footer-final/>
+    <footer-array :footlink="footinfo"/>
   </div>
 </template>
 
@@ -19,6 +20,8 @@ import ThirdJumbo from './components/ThirdJumbo.vue'
 import FourthJumbo from './components/FourthJumbo.vue'
 import FooterBox from './components/FooterBox.vue'
 import FooterFinal from './components/FooterFinal.vue'
+import FooterArray from './components/FooterArray.vue'
+
 
 
 export default {
@@ -31,53 +34,62 @@ export default {
     FourthJumbo,
     FooterBox,
     FooterFinal,
+    FooterArray,
   },
   data () {
     return {
       navbarList: [
-        'Home',
-        'About',
-        'Academics',
-        'Courses',
-        'News',
+        {
+          navtxt:'Home',
+        },
+        {
+          navtxt: 'About',
+        },
+        {
+          navtxt: 'Academics',
+        },
+        {
+          navtxt: 'Courses',
+        },
+        {
+          navtxt: 'News',
+        }
       ],
       footinfo:[
         {
           title: 'Contact Us',
-          messages: [
-            '900 Wood Street, MI New York',
-            '+58 325 625 000-09',
-            'info@mail.com'
-          ]
+          msg1: "900 Wood Street, MI New York",
+          msg2:'+58 325 625 000-09',
+          msg3:'info@mail.com',
+          msg4: '',
+          msg5: '',
+          msg6: '',
         },
         {
           title: 'Support Us',
-          messages: [
-            '> Privacy',
-            '> Terms',
-            '> Cookie Policy',
-            '> Sitemap',
-          ]
+          msg1:'> Privacy',
+          msg2:'> Terms',
+          msg3:'> Cookie Policy',
+          msg4: '> Sitemap',
+          msg5: '',
+          msg6: '',                    
         },
         {
           title: 'Explore',
-          messages: [
-            '> Accomodation',
-            '> Arts Academics',
-            '> Central Services',
-            '> Conferences and Events',
-            '> Food and Drink'
-          ]
+          msg1:  '> Accomodation',
+          msg2:  '> Arts Academics',
+          msg3:  '> Central Services',
+          msg5:  '> Conferences and Events',
+          msg6:  '> Food and Drink',
         },
         {
           title: 'Visit',
-          messages: [
-            '> Admission',
-            '> Contact Us',
-            '> FAQs',
-            '> Request Information',
-            '> Privacy Notice',
-          ]
+          msg1:  '> Admission',
+          msg2:  '> Contact Us',
+          msg3:  '> FAQs',
+          msg4:  '> Request Information',
+          msg5:  '> Privacy Notice',
+          msg6: '',
         }
       ],
     }
