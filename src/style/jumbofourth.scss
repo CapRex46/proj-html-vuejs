@@ -29,6 +29,7 @@
     border-radius: 5px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     text-align: center;
+    color: black;
 }
 
 .box3 img{
@@ -37,6 +38,16 @@
     border-radius: 5px 5px 0px 0px;
 }
 
+.box3 p {
+    margin: 30px;
+    text-align: left;
+}
+
+.box3 h2 {
+    text-align: left;
+    margin: 30px;
+    height: 130px;
+}
 
 .edubox{
     display: flex;
@@ -45,4 +56,19 @@
 
 li:hover{
     border-bottom: 2px black solid;
+}
+
+.box3 p:last-of-type{
+    transition: .5s;
+    border-top: black 2px solid;
+    width: 150px;
+}
+
+
+.box3 p:last-of-type:hover{
+    color: #e94247;
+    transition: .5s;
+    cursor: pointer;
+    border-top: #e94247 5px solid;
+    width: 100px;
 }

@@ -4,22 +4,10 @@
             <div class="logo">
                 <img src="@/img/Logo.jpg" alt="">
             </div>
-            <div class="navbox">
+            <div class="navbox" :navList="navList">
                 <ul>
                     <li>
-                        Home
-                    </li>
-                    <li>
-                        About
-                    </li>
-                    <li>
-                        Academics
-                    </li>
-                    <li>
-                        Courses
-                    </li>
-                    <li>
-                        News
+                        {{navList}}
                     </li>
                 </ul>
             </div>
@@ -33,7 +21,9 @@
 
 
 export default {
-
+    props: {
+        navList: Array,
+    }
 }
 </script>
 
