@@ -20,6 +20,7 @@ export default {
         margin-top: 80px;
         img {
             width: calc(100% / 4);
+            height: 300px;
         }
     }
 </style>

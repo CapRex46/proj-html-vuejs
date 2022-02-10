@@ -100,4 +100,5 @@ export default {
 <style lang="scss">
   @import './style/main.scss';
   @import url('https://use.fontawesome.com/releases/v5.7.1/css/all.css');
+  @import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js');
 </style>
