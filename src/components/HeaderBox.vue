@@ -5,18 +5,14 @@
                 <img src="@/img/Logo.jpg" alt="">
             </div>
             <div class="navbox" v-for="(link,index) in navList"  v-bind:key="`link-${index}`" >
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item dropdown"> 
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <nav>
+                <div>
+                    <ul>
+                        <li> 
+                            <a>
                                 {{link.navtxt}}
                             </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <a class="dropdown-item" href="#">Something else here</a>
-                            </div>  
+
                         </li>
                     </ul>
                 </div>
